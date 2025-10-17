@@ -3,12 +3,12 @@ pipeline {
     stages{
         stage ("Run Job-01"){
             steps{
-                build job:'Job-01'
+                echo "This is Jenkins job 1"
             }
         }
         stage ("Run Job02"){
             steps{
-                build job:'Job-02'
+                echo "This is Jenkins job 2"
             }
         }
     }
