@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage ("Run Job01"){
+        stage ("Run Job-01"){
             steps{
                 build job:'Job-01'
             }
