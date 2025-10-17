@@ -6,7 +6,7 @@ pipeline {
                 echo "This is Jenkins job 1"
             }
         }
-        stage ("Run Job02"){
+        stage ("Run Job-02"){
             steps{
                 echo "This is Jenkins job 2"
             }
